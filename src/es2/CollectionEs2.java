@@ -16,6 +16,8 @@ public class CollectionEs2 {
         System.out.println("scrivi true per vedere i numeri pari, false per vedere i numeri dispari");
         boolean prova = scanner.nextBoolean();
         pariDispari(listaNumeri,prova);
+
+        scanner.close();
     }
 
     //prima parte
