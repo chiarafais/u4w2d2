@@ -30,5 +30,6 @@ public class CollectionEs {
 
             System.out.println("Queste sono le parole che hai inserito esclusi doppioni : " + parole);
 
+            scanner.close();
     }
 }
